@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState, AppDispatch } from '../redux/store';
 import { addTask, removeTask, updateTask, toggleTask } from '../redux/slices/taskSlices';
 import { useNavigate } from 'react-router-dom';
-import styles from './TodoList.module.css';
+import styles from '../components/ToDoList.module.css';
 
 // Define the structure of a Task object
 interface Task {

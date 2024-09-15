@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
-import styles from './TaskDescription.module.css';
+import styles from '../components/TaskDescription.module.css';
 
 const TaskDescription: React.FC = () => {
   const { id } = useParams<{ id?: string }>();
